@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.left-items{
+    margin-top: 100px;
+    padding: 40px 20px;
+    align-items: center;
+    width: 70%;
+}
+
+.left-items h1{
+    font-size: 40px;
+}
+
+.left-items span{
+    color: #FBA24F;
+}
+.right-items img{
+    width: 100%;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border:2px solid tomato;
+    outline: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(to left,#fa0101, #f19c2c);  
+}
+.btn-primary{
+    margin-top: 40px;
+}
+
+.btn:hover{
+    background: transparent;
+}
+
+/* About section start from Here */
+
+.sec-about{
+    background: url(images/about-back-img.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+   padding-top: 40px
+}
+
+.about-sec{
+    margin:50px 0;
+}
+.about-left img{
+    width:40%;
+    align-items: center;
+    padding-left: 250px;
+
+}
+
+
+.about-right{
+    width: 100%;
+    padding: 30px 40px;
+}
+
+
+.about-right h1{
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+
+.about-right p{
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+
+/* section title start from here */
+
+.sec-title h2{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.sec-title p{
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.reci-sec{
+    width: 300px;
+    height: 380px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 70px;
+}
+
+
+.reci-sec:nth-child(3){
+    margin-right: 0px;
+}
+
+.reci-sec img{
+    width: 100%;
+}
+
+.reci-sec h4{
+    font-weight: 700px;
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+
+.reci-sec p{
+    text-align: left;
+    line-height: 25px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+
+
+/* Section counter start from here*/
+.section-count{
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 1152px;
+    margin:40px auto;
+    padding:20px 0;
+}
+.count{
+    height: 80px;
+    padding: 0 120px;
+}
+
+.count:nth-child(3){
+    padding-right: 0;
+}
+
+.count h1{
+    line-height: 10px;
+}
+
+.count p{
+    line-height: 10px;
+}
+
+
+/* Footer Section */
+
+
+.footer-sec{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 1152px;
+    margin: 30px auto;
+    padding: 12px 0;
+}
+
+.footer-sec span{
+    color: #FBA24F;
+}
+
+.footer-sec p{
+    padding-bottom: 20px;
+}
