@@ -59,7 +59,8 @@ body{
     background: url(images/about-back-img.jpg) no-repeat center center;
     width: 100%;
     background-size: cover;
-   padding-top: 40px
+   padding-top: 40px;
+   margin-top: 50px;
 }
 
 .about-sec{
